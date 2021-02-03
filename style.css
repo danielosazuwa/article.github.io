@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  background-color: whitesmoke;
+}
+.header {
+  width: 100%;
+  margin: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(20, 14, 104);
+  margin-bottom: 30px;
+}
+
+.logo-container {
+  flex: 2;
+  color: white;
+  font-size: 14px;
+}
+.reader {
+  flex: 2;
+  margin-left: 20px;
+}
+.reader img {
+  width: 20px;
+  height: auto;
+  background-color: white;
+}
+.reader p {
+  margin-left: 5px;
+}
+.logo-container h1 {
+  font-size: 14px;
+}
+
+.navbar {
+  flex: 1;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+  font-size: 12px;
+  margin-right: 50px;
+}
+
+.logo-container,
+.navbar,
+.reader {
+  display: flex;
+}
+
+.page_content {
+  text-align: justify;
+  width: 70%;
+  padding: 2%;
+  margin: auto;
+}
+.page_content p {
+  font-size: 20px;
+}
+.page_content h1 {
+  margin-top: 75px;
+}
+#nelson_mandela {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+#nelson_mandela img {
+  width: 250px;
+  height: auto;
+}
+#nelson_mandela p {
+  margin-left: 65px;
+}
+#martin {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+#martin img {
+  width: 250px;
+  height: auto;
+}
+#martin p {
+  margin-left: 65px;
+}
+
+.footer {
+
+}
+.footer h5 {
+  font-size: 18px;
+}
+.discussion {
+  display: flex;
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 15px;
+  width: 100%;
+  height: 150px;
+}
+
+#comment {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.share img {
+  width: 10px;
+  height: auto;
+}
+.share .icon {
+  padding: 2px;
+  margin-bottom: 20px;
+}
+.icon p {
+  font-size: 8px;
+}
+
+.submit {
+  height: 20px;
+  margin-left: 50px;
+  padding: 2px;
+}
+.final_section {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 627px) {
+  .page_content h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .page_content {
+    
+    width: 86%;
+    padding: 2%;
+  }
+
+  .navbar {
+    flex: 1.4;
+  }
+
+  #martin p {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .page_content h1 {
+    font-size: 25px;
+  }
+  .logo-container h1 {
+    font-size: 12px;
+  }
+  .reader p{
+    font-size: 12px;
+  }
+  .navlink {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  #martin p {
+    margin-left: 30px;
+  }
+  .logo-container h1 {
+    font-size: 10px;
+  }
+  .reader p{
+    font-size: 10px;
+  }
+  .navlink {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .page_content h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 512px) {
+  #martin p {
+    margin-left: 25px;
+  }
+@media screen and (max-width: 497px){
+  .navbar {
+    flex: 1.4;
+  }
+  .reader p{
+    font-size: 10px;
+  }
+}
